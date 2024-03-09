@@ -1,0 +1,20 @@
+export enum EventsEnum {
+    Produce="produce",
+    Connectionstatechange = "connectionstatechange",
+    Connect ="connect",
+    Close ="close",
+    UpdateDownloaded="update-downloaded",
+    CheckingForUpdate ="checking-for-update" ,
+    UpdateAvailable ="update-available" ,
+    UpdateNotAvailable="update-not-available" ,
+    BeforeQuitForUpdate ="before-quit-for-update" ,
+    Error ="error",
+    Update ="update",
+    VolumeChange ="volumeChange",
+    TransportClose ="transportclose" ,
+    TrackEnded ="trackended",
+    DownlinkBwe="downlinkBwe" ,
+    ActiveSpeaker ="activeSpeaker",
+    NewResolution ="newResolution" ,
+    UpdateResolution ="updateResolution"
+}
